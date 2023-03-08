@@ -9,7 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>{`Hello ${process.env.REACT_APP_NAME} wwwwwwasdf`}asdf</p>
+        <p>{`Hello ${process.env.REACT_APP_NAME}`}wwwwwasdf</p>
         <p>Again and again and again</p>
         <a
           className="App-link"
