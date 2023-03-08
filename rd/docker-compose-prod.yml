@@ -6,8 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.prod
+      args:
+        -REACT_APP_NAME=sanjeev-prod
     ports:
       - "8080:80"
-    environment:
-      - REACT_APP_NAME=sanjeev-prod
-      - CHOKIDAR_USEPOLLING=true
